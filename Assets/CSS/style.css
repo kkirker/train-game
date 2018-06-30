@@ -1,0 +1,53 @@
+body {
+    background-image: url(./railroad_tracks.jpg);
+    padding-top: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#important {
+    opacity: 1 !important;
+    border: 2px 2px 2px 2px rgb(25, 185, 224);
+}
+
+h1{
+    font-size:64px;
+    background:rgb(104, 142, 212);
+    Padding: 20px;
+    opacity: .85;
+}
+.table{
+    border:1px solid black;
+    padding:20px;
+    background: rgb(116, 154, 197);
+    
+}
+.form{
+    background: rgb(116, 154, 197);
+    padding:20px;
+    opacity: .85;
+    display: flex;
+
+}
+.row{
+    justify-content: space-between;
+}
+.topRow{
+    font-weight: bolder;
+    font-size:24px;
+}
+
+.el1 {
+    flex: 1;
+}
+
+.row + .row{
+    border-top: 1px solid black;
+}
+button{
+    margin:20px 0px;
+}
+.title{
+    text-align: center;
+}
+
